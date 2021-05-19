@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+        <style>
+			nav.sidenav-wrapper {
+			display:none;
+			}
+			
+			nav.title-bar.tab-bar.sticky {
+			display:none;
+			}
+			.height-container-sidenav {
+			padding-bottom: 0px;
+			}			
+		</style>
+    </head>
+    <body>
+        <MadCap:bodyProxy />
+        <div class="home-footer">
+            <table style="width: 100%;">
+                <col />
+                <col />
+                <tbody>
+                    <tr>
+                        <td>
+                            <img style="max-width:60px;" src="../Images/logos/BIA.png" />
+                        </td>
+                        <td>
+                            <img style="max-width:60px;" src="../Images/logos/BLM.png" />
+                        </td>
+                        <td>
+                            <img style="max-width:60px;" src="../Images/logos/FWS.png" />
+                        </td>
+                        <td>
+                            <img style="max-width:60px;" src="../Images/logos/NPS.png" />
+                        </td>
+                        <td>
+                            <img style="max-width:60px;" src="../Images/logos/USFS.png" />
+                        </td>
+                        <td style="text-align:center; background-color:#EA6A6D;"><a href="https://iiahelpdesk.nwcg.gov/applications" style="color:black; font-size:1.3em; text-decoration:none; ">IIA Help Desk</a>
+                        </td>
+                        <td style="text-align:center;">&#160;</td>
+                        <td style="text-align:center;">&#160;</td>
+                        <td style="text-align: center;">
+                            <p><a href="https://google.com" style="color:#ffffff; font-size:1.3em; text-decoration:none; ">Disclaimer</a>
+                            </p>
+                            <p><a href="https://google.com" style="color:#ffffff; font-size:1.3em; text-decoration:none; ">Release Notes</a>
+                            </p>
+                            <p><a href="https://google.com" style="color:#ffffff; font-size:1.3em; text-decoration:none; ">Copyright Statement</a>
+                            </p>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </body>
+</html>
