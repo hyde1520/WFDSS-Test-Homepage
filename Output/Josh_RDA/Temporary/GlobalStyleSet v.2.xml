@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <CatapultGlobalStyleCache
-  SavedSource="file:///C:/Users/Josh RDA/Desktop/TestProject/Test 5-18-2/Output/Josh_RDA/Temporary/GlobalStyleSet v.2.xml">
+  SavedSource="file:///C:/Users/Josh RDA/Desktop/TestProject/Test Project-5-20/Output/Josh_RDA/Temporary/GlobalStyleSet v.2.xml">
   <Media>
     <Medium
       Name="tablet" />
@@ -11,13 +11,89 @@
   </Media>
   <Map>
     <Tag
-      Name="body" />
+      Name="nav">
+      <Class
+        Name="sidenav-wrapper" />
+      <Class
+        Name="title-bar" />
+      <Class
+        Name="tab-bar" />
+      <Class
+        Name="sticky" />
+    </Tag>
     <Tag
-      Name="img" />
+      Name="div">
+      <Class
+        Name="topic-hero" />
+      <Class
+        Name="home-tiles-container" />
+      <Class
+        Name="home-tiles" />
+      <Class
+        Name="GlossaryPageDefinition" />
+      <Class
+        Name="GlossaryPageHeading" />
+      <Class
+        Name="GlossaryPageTerm" />
+      <Class
+        Name="home-layout" />
+      <Class
+        Name="home-section" />
+      <Class
+        Name="home-tiles-layout" />
+      <Class
+        Name="quick-links" />
+      <Class
+        Name="home-footer" />
+      <Class
+        Name="search" />
+      <Class
+        Name="footer" />
+      <Class
+        Name="home-master-page-footer" />
+      <Class
+        Name="GlossaryPageEntry" />
+      <Class
+        Name="Row-4-4-4" />
+      <Class
+        Name="Row-6-6" />
+      <Class
+        Name="Row-8-4" />
+    </Tag>
     <Tag
       Name="p">
       <Class
+        Name="tile-title" />
+      <Class
+        Name="tile-subtitle" />
+      <Class
+        Name="tile-content" />
+      <Class
+        Name="Index1" />
+      <Class
+        Name="Index2" />
+      <Class
+        Name="IndexHeading" />
+      <Class
         Name="table-text" />
+      <Class
+        Name="created-using-flare" />
+      <Class
+        Name="title" />
+      <Class
+        Name="title-page-footer" />
+      <Class
+        Name="title-page-url" />
+      <Class
+        Name="TOC1" />
+      <Class
+        Name="TOC2" />
+      <Class
+        Name="TOC3" />
+      <Class
+        Name="frame-footer-page-number" />
+      <Class
+        Name="frame-footer-text" />
       <Class
         Name="footer" />
       <Class
@@ -41,12 +117,6 @@
       <Class
         Name="MiniTOC9" />
       <Class
-        Name="TOC1" />
-      <Class
-        Name="TOC2" />
-      <Class
-        Name="TOC3" />
-      <Class
         Name="TOC4" />
       <Class
         Name="TOC5" />
@@ -58,12 +128,6 @@
         Name="TOC8" />
       <Class
         Name="TOC9" />
-      <Class
-        Name="IndexHeading" />
-      <Class
-        Name="Index1" />
-      <Class
-        Name="Index2" />
       <Class
         Name="Index3" />
       <Class
@@ -86,40 +150,37 @@
         Name="ListOf" />
     </Tag>
     <Tag
-      Name="div">
-      <Class
-        Name="topstuff" />
-      <Class
-        Name="quick-links" />
-      <Class
-        Name="home-layout" />
-      <Class
-        Name="home-section" />
-      <Class
-        Name="home-tiles" />
-      <Class
-        Name="home-tiles-layout" />
-      <Class
-        Name="topic-hero" />
-      <Class
-        Name="home-footer" />
-      <Class
-        Name="GlossaryPageEntry" />
+      Name="a">
       <Class
         Name="GlossaryPageTerm" />
       <Class
-        Name="GlossaryPageDefinition" />
+        Name="MCBreadcrumbsLink" />
       <Class
-        Name="GlossaryPageHeading" />
-      <Class
-        Name="Row-4-4-4" />
-      <Class
-        Name="Row-6-6" />
-      <Class
-        Name="Row-8-4" />
+        Name="Popup" />
     </Tag>
     <Tag
-      Name="h1" />
+      Name="img">
+      <Class
+        Name="toplogo" />
+    </Tag>
+    <Tag
+      Name="body" />
+    <Tag
+      Name="MadCap|glossaryProxy" />
+    <Tag
+      Name="MadCap|indexProxy" />
+    <Tag
+      Name="hr">
+      <Class
+        Name="title-page" />
+    </Tag>
+    <Tag
+      Name="MadCap|tocProxy" />
+    <Tag
+      Name="h1">
+      <Class
+        Name="home" />
+    </Tag>
     <Tag
       Name="h2" />
     <Tag
@@ -147,15 +208,6 @@
     </Tag>
     <Tag
       Name="MadCap|breadcrumbsProxy" />
-    <Tag
-      Name="a">
-      <Class
-        Name="GlossaryPageTerm" />
-      <Class
-        Name="MCBreadcrumbsLink" />
-      <Class
-        Name="Popup" />
-    </Tag>
     <Tag
       Name="MadCap|dropDown" />
     <Tag
@@ -213,8 +265,6 @@
       Name="object" />
     <Tag
       Name="script" />
-    <Tag
-      Name="hr" />
     <Tag
       Name="span">
       <Class
@@ -333,8 +383,6 @@
     <Tag
       Name="header" />
     <Tag
-      Name="nav" />
-    <Tag
       Name="q" />
     <Tag
       Name="datalist" />
@@ -393,15 +441,9 @@
     <Tag
       Name="MadCap|miniTocProxy" />
     <Tag
-      Name="MadCap|tocProxy" />
-    <Tag
-      Name="MadCap|indexProxy" />
-    <Tag
       Name="MadCap|listOfProxy" />
     <Tag
       Name="MadCap|conceptsProxy" />
-    <Tag
-      Name="MadCap|glossaryProxy" />
     <Tag
       Name="MadCap|relationshipsProxy" />
     <Tag
@@ -576,7 +618,13 @@
   </Map>
   <SourceUrls>
     <Url
+      Source="Resources/Stylesheets/myhome.css" />
+    <Url
       Source="Resources/Stylesheets/Styles.css" />
+    <Url
+      Source="Resources/Stylesheets/StylesForHomePage - Copy.css" />
+    <Url
+      Source="Resources/Stylesheets/StylesForHomePage.css" />
     <Url
       Source="Resources/TableStyles/Alternate-Row-Color.css" />
     <Url

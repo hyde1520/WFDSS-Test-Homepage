@@ -7,6 +7,7 @@
   GlossaryTermConversion="marked"
   MasterPage="/Content/Resources/MasterPages/Other-Topics.flmsp"
   DefaultUrl="/Content/Home.htm"
+  ConditionTagExpression="include[Default.ScreenOnly] exclude[Default.PrintOnly] "
   ShowMadCapBacklink="false">
   <PrintedOutput
     CollapseMargins="true"

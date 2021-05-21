@@ -6,6 +6,7 @@
 {
 	--Brand1: #076685;
 	--Brand2: #CDE0E7;
+	--Black: #000000;
 	--Dark: #45494c;
 	--Medium: #b9bec1;
 	--Light: #d0d3d5;
@@ -24,6 +25,81 @@ body
 	padding-top: 2%;
 }
 
+/* Backmatter */
+
+div.GlossaryPageDefinition
+{
+	font-size: 10pt;
+}
+
+div.GlossaryPageHeading
+{
+	font-size: 21pt;
+	font-weight: normal;
+	margin-bottom: 15px;
+	margin-top: 15px;
+	border-bottom-color: var(--Medium);
+	border-bottom-style: solid;
+	border-bottom-width: 1px;
+	text-align: left;
+	color: inherit;
+	padding-left: 10px;
+	padding-bottom: 20px;
+	padding-top: 20px;
+	padding-right: 10px;
+	background-image: url('../Images/Backmatter-Heading-Background.png');
+	background-repeat: no-repeat;
+}
+
+div.GlossaryPageTerm
+{
+	font-size: 12pt;
+	font-weight: bold;
+	padding-bottom: 10px;
+	padding-top: 10px;
+}
+
+MadCap|glossaryProxy
+{
+	border-top: none;
+}
+
+MadCap|indexProxy
+{
+	border-top: none;
+}
+
+p.Index1
+{
+	font-size: 10pt;
+	font-weight: bold;
+}
+
+p.Index2
+{
+	font-size: 10pt;
+	font-weight: normal;
+}
+
+p.IndexHeading
+{
+	font-size: 21pt;
+	font-weight: normal;
+	margin-bottom: 15px;
+	margin-top: 15px;
+	border-bottom-color: var(--Medium);
+	border-bottom-style: solid;
+	border-bottom-width: 1px;
+	text-align: left;
+	color: inherit;
+	padding-left: 10px;
+	padding-bottom: 20px;
+	padding-top: 12px;
+	padding-right: 10px;
+	background-image: url('../Images/Backmatter-Heading-Background.png');
+	background-repeat: no-repeat;
+}
+
 /* Content */
 
 img
@@ -39,39 +115,98 @@ p
 	margin-bottom: 20px;
 	line-height: 20pt;
 	letter-spacing: 0.25;
-}
-
-/*JOSH CUSTOMIZATION FOR HOME PAGE*/
-/*Top links for home page*/
-
-div.topstuff
-{
-	padding-right: 1em;
-	position: fixed;
-	top: 1em;
-	right: 1em;
-}
-
-/*makes top search bar smaller*/
-
-.search,
-.search-bar
-{
-	width: 65%;
-}
-
-/*Brings quick links closer to each other and improves spacing*/
-
-div.quick-links
-{
-	max-width: 80%;
-	margin-top: 3em;
-	margin-bottom: 3em;
+	widows: 3;
+	orphans: 3;
 }
 
 p.table-text
 {
 	font-size: 12pt;
+}
+
+/* Frontmatter */
+
+hr.title-page
+{
+	border: solid 0px transparent;
+	background-color: var(--Light);
+	height: 1px;
+	width: 100%;
+	margin-bottom: 30px;
+	margin-top: 370px;
+}
+
+MadCap|tocProxy
+{
+	border-top: none;
+	margin-right: 0.25in;
+}
+
+p.created-using-flare
+{
+	color: var(--Dark);
+	font-weight: bold;
+	margin-top: 18px;
+	font-size: 9pt;
+	line-height: 15pt;
+	text-transform: uppercase;
+}
+
+p.title
+{
+	font-size: 55pt;
+	line-height: 65pt;
+	margin-top: 30px;
+	mc-hyphenate: never;
+}
+
+p.title-page-footer
+{
+	color: var(--Dark);
+	font-size: 9pt;
+	frame-break-before: always;
+	line-height: 15pt;
+	margin-top: 30px;
+}
+
+p.title-page-url
+{
+	color: var(--Dark);
+	font-size: 9pt;
+	line-height: 15pt;
+}
+
+p.TOC1
+{
+	color: var(--Dark);
+	font-size: 19pt;
+	font-weight: normal;
+	line-height: 21pt;
+	margin-bottom: 15px;
+	margin-top: 15px;
+	page-break-after: avoid;
+}
+
+p.TOC2
+{
+	color: var(--Dark);
+	font-size: 15pt;
+	font-weight: normal;
+	line-height: 21pt;
+	margin-bottom: 13px;
+	margin-left: .5in;
+	margin-top: 13px;
+}
+
+p.TOC3
+{
+	color: var(--Dark);
+	font-size: 13pt;
+	line-height: 21pt;
+	font-weight: normal;
+	margin-bottom: 10px;
+	margin-left: 1in;
+	margin-top: 10px;
 }
 
 /* Headings */
@@ -87,6 +222,7 @@ h2
 {
 	font-weight: bold;
 	font-size: 18.0pt;
+	page-break-before: always;
 }
 
 h3
@@ -117,18 +253,13 @@ h6
 
 div.home-layout
 {
-	padding-bottom: .1%;
-	/*padding: 2% 5%;*/
-	background-color: #393939;
-	position: -webkit-sticky;
-	/* Safari */
-	position: sticky;
-	top: 0;
+	padding: 2% 5%;
 }
 
 div.home-section
 {
-	padding: 2% 0;
+	padding: 5% 0;
+	border-bottom: solid 1px var(--Light);
 }
 
 div.home-tiles	/*This is a custom responsive layout row style (div class) in your stylesheet. To provide your own description for this style: (1) Open the stylesheet; (2) Find and select the div class with this name; and (3) In the Comment field, replace this text with your own. For more information on adding comments to styles, see the online Help.*/
@@ -245,19 +376,31 @@ div.quick-links > div
 
 div.quick-links > div:nth-child(1)
 {
-	width: 27.66666%;
+	width: 16.66666%;
 	margin-left: 2%;
 }
 
 div.quick-links > div:nth-child(2)
 {
-	width: 27.66666%;
+	width: 16.66666%;
 	margin-left: 3%;
 }
 
 div.quick-links > div:nth-child(3)
 {
-	width: 27.66666%;
+	width: 16.66666%;
+	margin-left: 3%;
+}
+
+div.quick-links > div:nth-child(4)
+{
+	width: 16.66666%;
+	margin-left: 3%;
+}
+
+div.quick-links > div:nth-child(5)
+{
+	width: 16.66666%;
 	margin-left: 3%;
 }
 
@@ -268,14 +411,10 @@ div.quick-links *	/*Text-align center set to all elements within div.quick-links
 
 div.topic-hero
 {
-	padding-bottom: 1%;
-	padding-top: 2%;
-	padding-left: 5%;
-	padding-right: 5%;
-	background-image: url('../Images/Hero-Image4.png');
+	padding: 5%;
+	background-image: url('../Images/Hero-Image.png');
 	background-size: cover;
 	background-attachment: scroll;
-	max-height: 400px;
 }
 
 div.topic-hero h1
@@ -395,11 +534,29 @@ ul
 	margin-bottom: 0px;
 }
 
+/* Page layout */
+
+p.frame-footer-page-number
+{
+	color: var(--Medium);
+	font-size: 11pt;
+	font-weight: bold;
+	text-align: right;
+}
+
+p.frame-footer-text
+{
+	color: var(--Medium);
+	font-size: 11pt;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
 /* Master page */
 
 div.home-footer
 {
-	background-color: #393939;
+	background-color: var(--Brand1);
 	padding: 2% 5%;
 }
 
@@ -537,6 +694,53 @@ p.footer-sub
 
 @media print
 {
+	body
+	{
+		font-size: 11pt;
+		line-height: 13pt;
+		margin: 8px;
+	}
+
+	/* Content */
+
+	p
+	{
+		margin-bottom: 10px;
+		margin-top: 10px;
+	}
+
+	p.table-text
+	{
+		font-size: 11pt;
+	}
+
+	/* Headings */
+
+	h1
+	{
+		font-size: 25pt;
+		line-height: 27pt;
+		margin-bottom: 20px;
+	}
+
+	h2
+	{
+		font-size: 21pt;
+		font-weight: normal;
+		line-height: 23pt;
+		margin-bottom: 18px;
+		margin-top: 40px;
+	}
+
+	h3
+	{
+		font-size: 15pt;
+		font-weight: bold;
+		line-height: 17pt;
+		margin-bottom: 15px;
+		margin-top: 40px;
+	}
+
 	/* Links */
 
 	MadCap|xref

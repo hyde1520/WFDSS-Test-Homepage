@@ -19,4 +19,18 @@
     Name="CityStateZip"
     Comment=""
     EvaluatedDefinition="La Jolla, CA 92037">La Jolla, CA 92037</Variable>
+  <Variable
+    Name="UserGuideTitle"
+    Comment=""
+    OriginalName="PDFGuideTitle"
+    EvaluatedDefinition="Product User Guide">Product User Guide</Variable>
+  <Variable
+    Name="VersionNumber"
+    OriginalName="VersionNumberDot">1.0</Variable>
+  <Variable
+    Name="Year"
+    Comment=""
+    Type="DateTime"
+    LastUpdated="2016-02-16T22:11:15.8176589-08:00"
+    EvaluatedDefinition="yyyy">yyyy</Variable>
 </CatapultVariableSet>
