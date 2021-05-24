@@ -30,6 +30,10 @@
       <Class
         Name="home-tiles" />
       <Class
+        Name="box" />
+      <Class
+        Name="insidebox" />
+      <Class
         Name="GlossaryPageDefinition" />
       <Class
         Name="GlossaryPageHeading" />
@@ -619,6 +623,8 @@
   <SourceUrls>
     <Url
       Source="Resources/Stylesheets/myhome.css" />
+    <Url
+      Source="Resources/Stylesheets/myhome2.css" />
     <Url
       Source="Resources/Stylesheets/Styles.css" />
     <Url

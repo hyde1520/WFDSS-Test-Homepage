@@ -52,8 +52,22 @@ div.home-tiles::after
 	display: table;
 	clear: both;
 }
+div.home-tiles > div {
+	float: left;
+	-moz-box-sizing: border-box;
+	-box-sizing: border-box;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	overflow: hidden;
+	padding-left: 9.5px;
+	padding-right: 9.5px;
+	/*height: 250px; /*changed from 150*/
+	margin-top:5em;
+	background-color:#ffffff;
+}
 
-div.home-tiles > div
+
+/*div.home-tiles > div
 {
 	float: left;
 	-moz-box-sizing: border-box;
@@ -61,12 +75,48 @@ div.home-tiles > div
 	padding-top: 20px;
 	padding-bottom: 20px;
 	overflow: hidden;
-	/*border: solid 3px #000000;/*remove border for now*/
+	/*border: solid 3px #000000;/*remove border for now*
 	padding-left: 9.5px;
 	padding-right: 9.5px;
 	height: 150px;
-	background-color: #981B1E; /*Added to replace the blue*/
+    border: 3px solid #393939;/*5-24 borderboxes*
+    border-radius: 4px;/*5-24 borderboxes*/
+    /*background-color: #ffffff; /*5-24 borderboxes*/ /*Added to replace the blue*
+}*/
+
+
+div.home-tiles > div > a> img {
+	
+    border: 3px solid #393939;
+    border-radius: 50%;
+    max-width: 100px;
+    display: grid;
+    position:relative;
+    margin-left: auto;
+    margin-right: auto; /*5-24 borderboxes*/ /*Added to replace the blue*/
+    margin-bottom: -50px;
 }
+div.home-tiles > div > div.box {
+	
+    border: 3px solid #393939;
+    border-position-y:center;
+    border-radius: 5px;
+    position:inherit;
+    z-index: -1;
+    top:0.5em;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+div.home-tiles > div > div.box > div.insidebox {
+	
+margin-top:50px;
+padding-right: 2em;
+padding-left: 2em;
+text-align:center;
+}
+
+
 
 div.home-tiles > div:nth-child(1)
 {
@@ -155,7 +205,7 @@ div.topstuff{
 }
 div.topsticky
 {
-	padding-bottom:5%;
+	padding-bottom:1.5%;
 	padding-top:2%;
 	padding-left:5%;
 	padding-right: 5%;
