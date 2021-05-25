@@ -15,10 +15,4 @@
     GenerateIndexProxy="true"
     GenerateGlossaryProxy="true"
     OutputFormat="doc" />
-  <Destinations>
-    <Destination
-      Link="/Destinations/Central.fldes"
-      Publish="true"
-      IsResource="true" />
-  </Destinations>
 </CatapultTarget>
