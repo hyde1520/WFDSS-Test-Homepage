@@ -1,0 +1,340 @@
+﻿/*<meta />*/
+
+/* Hides side nav bar, top bar with search field, and space on bottom of homw page*/
+nav.sidenav-wrapper {
+display:none;
+}
+			
+nav.title-bar.tab-bar.sticky {
+display:none;
+}
+.height-container-sidenav {
+padding-bottom: 0px;
+}	
+
+/*Updates Here images*/
+div.topic-hero
+{
+	background-image: url('../Images/Home/Hero-Image.png');
+}
+
+/*Santaluz tiles with classes "home-tiles" "tile-title" "home-tiles-container"*/
+div.home-tiles-container
+{
+	/*padding-top: 30px;/*I disabled until we want to reallywork with spacing*/
+	padding-bottom: 60px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #ffffff;
+	/*min-height: 50vh;/*removed*/
+}
+
+div.home-tiles	/*This layout was created using the Responsive Layout Editor in MadCap Flare. Go to: Home Ribbon > Styles Section > Responsive Layout*/
+{
+	mc-grid-row: true;
+	margin-left: auto;
+	margin-right: auto;
+	/*margin-top: 5%;/*undid this to use <br> in the html directly. Will re-enable and get spacing right if they way to use our layout*/
+	width: 85%;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+}
+
+div.home-tiles::before
+{
+	content: ' ';
+	display: table;
+}
+
+div.home-tiles::after
+{
+	content: ' ';
+	display: table;
+	clear: both;
+}
+div.home-tiles > div {
+	float: left;
+	-moz-box-sizing: border-box;
+	-box-sizing: border-box;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	overflow: hidden;
+	padding-left: 9.5px;
+	padding-right: 9.5px;
+	/*height: 250px; /*changed from 150*/
+	margin-top:5em;
+	background-color:#ffffff;
+}
+
+
+/*div.home-tiles > div
+{
+	float: left;
+	-moz-box-sizing: border-box;
+	-box-sizing: border-box;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	overflow: hidden;
+	/*border: solid 3px #000000;/*remove border for now*
+	padding-left: 9.5px;
+	padding-right: 9.5px;
+	height: 150px;
+    border: 3px solid #393939;/*5-24 borderboxes*
+    border-radius: 4px;/*5-24 borderboxes*/
+    /*background-color: #ffffff; /*5-24 borderboxes*/ /*Added to replace the blue*
+}*/
+
+
+div.home-tiles > div > a> img {
+	
+    border: 3px solid #393939;
+    border-radius: 50%;
+    max-width: 100px;
+    display: grid;
+    position:relative;
+    margin-left: auto;
+    margin-right: auto; /*5-24 borderboxes*/ /*Added to replace the blue*/
+    margin-bottom: -50px;
+}
+div.home-tiles > div > div.box {
+	
+    border: 3px solid #393939;
+    border-position-y:center;
+    border-radius: 5px;
+    position:inherit;
+    z-index: -1;
+    top:0.5em;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+div.home-tiles > div > div.box > div.insidebox {
+	
+margin-top:50px;
+padding-right: 2em;
+padding-left: 2em;
+text-align:center;
+}
+
+
+
+div.home-tiles > div:nth-child(1)
+{
+	width: 22.223%;
+	margin-left: 14.667%;
+}
+
+div.home-tiles > div:nth-child(2)
+{
+	width: 22.223%;
+	margin-left: 3%;
+}
+
+div.home-tiles > div:nth-child(3)
+{
+	width: 22.223%;
+	margin-left: 3%;
+}
+
+/*div.home-tiles > div:nth-child(4)
+{
+	width: 16.667%;
+	margin-left: 2%;
+}*/
+
+div.home-tiles > div:hover
+{
+	box-shadow: 0 12px 18px rgba(0,0,0,0.16), 0 12px 18px rgba(0,0,0,0.23);
+	transform: scale(1.05);
+}
+
+/*=Elements for text contained within each home-tile=*/
+
+p.tile-title
+{
+	text-align: center;
+	font-weight: bold;
+	color: #ffffff;
+}
+
+p.tile-subtitle
+{
+	text-align: center;
+	color: #ffffff;
+}
+
+p.tile-content
+{
+	color: #ffffff;
+	font-size: 0.9em;
+	text-align: center;
+}
+
+div.home-tiles a	/*Complex Selector: Links within the home tiles will have the following properties*/
+{
+	text-decoration: none;
+	color: #ffffff;
+}
+
+div.home-tiles a:hover	/*Complex Selector: When hovering over links within the home tiles the following properties will apply.*/
+{
+	color: #d3d3d3;
+}
+
+
+
+
+/*Top material*/
+img.toplogo {
+	max-width:260px;
+	padding-left:1em;
+	position:fixed;
+	top: 1em;
+	left: 1em;" 
+}
+/*Top links for home page*/
+div.topstuff{
+	padding-right:1em;
+	position: fixed;
+    top: 1em;
+    right: 1em;
+}
+/*makes top search bar smaller*/
+.search, .search-bar {
+	width:65%;
+}
+div.topsticky
+{
+	padding-bottom:1.5%;
+	padding-top:2%;
+	padding-left:5%;
+	padding-right: 5%;
+	/*padding: 2% 5%;/*overwritten with the above*/
+	background-color:#393939;
+
+	position: -webkit-sticky; /* Safari */
+ 	position: sticky;
+  	top: 0;
+}
+div.home-layout-top
+{
+	padding-bottom:.1%;
+	background-color:#393939;
+	position: -webkit-sticky; /* Safari */
+ 	position: sticky;
+  	top: 0;
+}
+
+
+/*More Footer styles to geth this to display, taken from other parts of the template*/
+
+.center
+{
+	position: relative;
+	margin-right: auto;
+	margin-left: auto;
+	float: none !important;
+	text-align: center;
+}
+
+/*==Home Page Footer==*/
+
+div.footer
+{
+	padding-top: 20px;
+	padding-bottom: 20px;
+	background: #393939;
+}
+
+div.footer a
+{
+	text-decoration: none;
+	color: #ffffff;
+}
+
+div.footer p	/* Complex Selector: Any <p> that is contained within div.footer will have the following properties */
+{
+	font-size: 0.8em;
+	color: #b1b1b1;
+}
+
+div.home-master-page-footer	/*This layout was created using the Responsive Layout Editor in MadCap Flare. Go to: Home Ribbon > Styles Section > Responsive Layout*/
+{
+	mc-grid-row: true;
+	margin-left: auto;
+	margin-right: auto;
+	width: 55%;
+}
+
+div.home-master-page-footer::before
+{
+	content: ' ';
+	display: table;
+}
+
+div.home-master-page-footer::after
+{
+	content: ' ';
+	display: table;
+	clear: both;
+}
+
+div.home-master-page-footer > div
+{
+	float: left;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+div.home-master-page-footer > div:nth-child(1)
+{
+	width: 33.333%;
+	margin-left: 0%;
+}
+
+div.home-master-page-footer > div:nth-child(2)
+{
+	width: 33.333%;
+	margin-left: 0%;
+}
+
+div.home-master-page-footer > div:nth-child(3)
+{
+	width: 33.333%;
+	margin-left: 0%;
+}
+
+/*IIA Help Button*/
+
+.helpbutton {
+background-color: #EA6A6D;
+border: none; 
+color: white;
+padding: 15px 32px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+font-size: 16px;
+border-radius: 4px;
+}
+
+/*Link Style*/
+a.homelink{
+color:#ffffff;
+font-size:1.3em; 
+text-decoration:none;
+}
+a.toplinks {
+	color:#ffffff;
+	font-size:1.3em;
+	text-decoration:none;
+	margin-right:2em;  
+}
+
+
+div.footer p	/* Complex Selector: Any <p> that is contained within div.footer will have the following properties */
+{
+color:#ffffff;
+font-size:1.3em; 
+text-decoration:none;
+}
