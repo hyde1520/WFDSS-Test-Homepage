@@ -5,15 +5,15 @@
     </head>
     <body>
         <MadCap:bodyProxy />
-		<div class="footer center">
-			<div class="home-master-page-footer">
-				<div>
-					<img style="max-width:60px;" src="../Images/Home/logos/BIA.png" />
-					<img style="max-width:60px; margin-left:1em;" src="../Images/Home/logos/BLM.png" />
-					<img style="max-width:50px; margin-left:1em;" src="../Images/Home/logos/FWS.png" />
-					<img style="max-width:50px; margin-left:1em;" src="../Images/Home/logos/NPS.png" />
-					<img style="max-width:50px; margin-left:1em;" src="../Images/Home/logos/USFS.png" />					
-					<!--<p>
+        <div class="footer center">
+            <div class="home-master-page-footer">
+                <div>
+                    <img style="max-width:60px;" src="../Images/Home/logos/BIA.png" />
+                    <img style="max-width:60px; margin-left:1em;" src="../Images/Home/logos/BLM.png" />
+                    <img style="max-width:50px; margin-left:1em;" src="../Images/Home/logos/FWS.png" />
+                    <img style="max-width:50px; margin-left:1em;" src="../Images/Home/logos/NPS.png" />
+                    <img style="max-width:50px; margin-left:1em;" src="../Images/Home/logos/USFS.png" />
+                    <!--<p>
 						<img src="../Images/Assets/Icons/SocialMedia/AddSM-white.png" />
 					</p>
 					<p>FOLLOW&#160;US</p>
@@ -41,22 +41,22 @@
 							</tr>
 						</tbody>
 					</table>-->
-				</div>
-				<div>
-					<div class="helpbutton">
-						<a class="homelink" href="https://iiahelpdesk.nwcg.gov/">IIA Help Desk</a>
-					</div>
-				</div>
-				<div>
-					<p><a href="https://www.google.com/">Disclaimer</a></p>
-					<p><a href="https://www.google.com/">Release Notes</a></p>
-					<p><a href="https://www.google.com/">Copyright Statement</a></p>									
-				</div>
-			</div>
-		</div>
-		
-		
-		<!-- THIS IS THE ORIGINAL FOOTER   <div class="home-footer">
+                </div>
+                <div>
+                    <div class="helpbutton"><a class="homelink" href="https://iiahelpdesk.nwcg.gov/">IIA Help Desk</a>
+                    </div>
+                </div>
+                <div>
+                    <p><a href="../../F-HomeExample/Placeholder.htm">Disclaimer</a>
+                    </p>
+                    <p><a href="../../F-HomeExample/Placeholder.htm">Release Notes</a>
+                    </p>
+                    <p><a href="../../F-HomeExample/Placeholder.htm">Copyright Statement</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+        <!-- THIS IS THE ORIGINAL FOOTER   <div class="home-footer">
             <table style="width: 100%;">
                 <col />
                 <col />
